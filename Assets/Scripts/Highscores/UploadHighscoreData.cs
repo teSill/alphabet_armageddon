@@ -7,7 +7,7 @@ public class UploadHighscoreData : MonoBehaviour {
     DownloadHighscoreData downloadData;
     GameModeHandler gameModeHandler;
 
-    string uploadURL = "http://www.alphabet-armageddon.com/highscores/UploadPlayer.php";
+    string uploadURL = "";
 
     void Awake() {
         gameModeHandler = GameObject.Find("GameModeHandler").GetComponent<GameModeHandler>();
